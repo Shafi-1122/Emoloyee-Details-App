@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       builder: (context, snapshot) {
                         if (snapshot.hasData) {
                           return Consumer<ProviderClass>(
-                            builder: (context, value23, child) {
+                            builder: (context, value, child) {
                               return GridView.builder(
                                   gridDelegate:
                                       const SliverGridDelegateWithMaxCrossAxisExtent(
